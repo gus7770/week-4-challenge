@@ -1,81 +1,35 @@
+/* Common Styles */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     background-color: #f0f0f0;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.container {
+.container, .posts-container {
     display: flex;
-    width: 80%;
-    max-width: 1200px;
-    border: 2px solid black;
-}
-
-.left-section, .right-section {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding: 20px;
 }
 
-.left-section {
-    border-right: 2px solid black;
-}
-
-.circle {
-    width: 300px;
-    height: 300px;
-    background: radial-gradient(circle, #ffd700, #f49b00);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.circle h1 {
+.dark-mode {
+    background-color: #121212;
     color: white;
-    font-size: 24px;
-    font-weight: bold;
 }
 
-.right-section h2 {
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-    margin-bottom: 20px;
+    padding: 10px 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
 }
 
-.form-group {
-    margin-bottom: 15px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.dark-mode footer {
+    background-color: #121212;
 }

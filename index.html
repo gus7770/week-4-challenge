@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Blog</title>
+    <!-- Link the form.css and styles.css for landing page styling -->
     <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/form.style.css">
 </head>
 <body>
     <div class="container">
@@ -32,9 +34,11 @@
                     <textarea id="content" placeholder="What's on your mind?"></textarea>
                 </div>
                 <button type="submit">Submit</button>
+                <p id="error-message" class="error-message"></p>
             </form>
         </div>
     </div>
-    <script src="./assets/JS/javascript.js"></script>
+    <!-- Include JavaScript file for form handling -->
+    <script src="./assets/JS/form.javascript.js"></script>
 </body>
 </html>
