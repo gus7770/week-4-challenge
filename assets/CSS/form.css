@@ -19,7 +19,7 @@ main figure{
   
 }
 main figcaption{
-    background-image: linear-gradient( yellow, black);
+    background-image: linear-gradient( rgb(10, 229, 241), black);
     width: 70%;
     padding: 0 20%;
     border-radius: 50%;
