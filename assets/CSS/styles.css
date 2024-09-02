@@ -17,3 +17,22 @@ header{
     width: 1.5%;
    margin: 1%;
 }
+
+/* Light mode styles */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+/* Optional: styling for the form elements in dark mode */
+body.dark-mode input,
+body.dark-mode textarea {
+    background-color: #333333; /* Darker background for inputs */
+    color: white; /* Light text color for inputs */
+}
